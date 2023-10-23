@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head> 
+        <meta:charset="UTF-8">      
+        <meta:name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>   
+        <style>
+            table, tr, th, td {
+                border: 1px solid black}
+        </style>     
+    </head>   
+    <body>
+        <table>
+            <tr>
+                <td>Ime:</td>
+                <td>
+                    <input type="text" name="ime">
+                </td>
+            </tr>
+            <tr>
+                <td>Prezime:</td>
+                <td>
+                    <input type="text" name="prezime">
+                </td>
+            </tr>    
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="text" name="email">
+                </td>
+            </tr>    
+            <tr>
+                <td>Država:</td>
+                <td>
+                    <select name="drzava" id="drzava">
+                        <option value="Hrvatska">Hrvatska</option>
+                        <option value="Italija">Italija</option>
+                        <option value="SAD">SAD</option>
+                    </select>
+                </td>
+            </tr>               
+            <tr>
+                <td>Spol:</td>
+                <td>
+                    <input type="radio" name="spol" value="M"> Muški
+                    <input type="radio" name="spol" value="Z"> Ženski
+                </td>
+            </tr>   
+            <tr>
+                <td>Zanima me:</td>
+                <td>
+                    <input type="radio" name="sport" value="plivanje"> Plivanje
+                    <input type="radio" name="sport" value="penjanje"> Penjanje
+                    <input type="radio" name="sport" value="programiranje"> Programiranje
+                </td>
+            </tr>    
+            <tr>
+                <td colspan="2"><button type="submit">Posalji!</button></td>
+            </tr>                                   
+        </table>
+    </body>
+</html>
