@@ -1,0 +1,2 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIzdFVy2VdY7/yJyRWnH9ZWFai40u6iaxJqV/cbwtJnT morena.simcic@outlook.com“
+ssh-keygen -t ed25519 -C morena.simcic@outlook.com“
