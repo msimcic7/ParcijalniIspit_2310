@@ -1,8 +1,10 @@
 <?php
 
 namespace App;
+
 class Config {
-    public function __construct(private string $username, private string $password, private string $database){
+    public function __construct(private string $username, private string $password, private string $database)
+    {
     }
     
     public function getUsername()

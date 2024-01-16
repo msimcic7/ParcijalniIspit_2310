@@ -14,6 +14,7 @@ $dbconfig = new config (
     $dbConfigFile['password']
 );
 
+
 try {
     $connection = connection::getInstance($databaseConfiguration);
 } catch (\Throwable $th) {
